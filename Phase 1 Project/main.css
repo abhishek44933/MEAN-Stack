@@ -1,0 +1,190 @@
+
+/* small screens */
+@media screen and (max-width: 768px) {
+  .btn{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .blog-content{
+    font-size: 16px;
+  }
+
+  .blog-title{
+    font-size: 20px;
+  }
+
+  .post-date{
+    font-size: 20px;
+  }
+  
+  .author-name{
+    font-size: 20px;
+  }
+
+  .modal-title{
+    font-size: 20px;
+  }
+
+  .modal-content{
+    font-size: 20px;
+    padding: 2%;
+   min-height: 300px;
+  }
+
+  .modal-body{
+    padding: 5%;
+    min-height: 350px;
+  }
+
+  .modal-lg {
+    max-width: 95%;
+  }
+
+}
+
+
+  /* big screens */
+@media screen and (min-width: 769px) {
+
+  .btn{
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .blog-content{
+    font-size: 20px;
+  }
+
+  .modal-title{
+    font-size: 25px;
+  }
+
+  .modal-content{
+    font-size: 20px;
+    padding: 2%;
+   min-height: 500px;
+   
+  }
+
+  .modal-body{
+    padding: 5%;
+    min-height: 600px;
+  }
+
+  .modal-lg {
+    max-width: 60%;
+  }
+
+  .blog-title{
+    font-size: 25px;
+  }
+
+  .post-date{
+    font-size: 20px;
+  }
+  
+  .author-name{
+    font-size: 20px;
+  }
+
+
+}
+
+
+
+
+.mainLogo{
+    width: 400px;
+    height:80px;
+}
+
+
+.content{
+  background-color: white;
+}
+
+.btn{
+  white-space: normal;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  float: right;
+
+}
+
+.jumbotron{
+    background: #333;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient
+  (to right, rgba(102, 126, 234, 0.5),
+   rgba(118, 75, 162, 0.5));
+
+  
+  background: linear-gradient
+  (to right, rgba(102, 126, 234, 0.5),
+   rgba(118, 75, 162, 0.5))
+}
+
+.rounded-circle{
+  width: 20%;
+  height: 20%;
+ 
+}
+
+.shadow{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.blog-item{
+margin-left: 2%;
+margin-right: 2%;
+width: 100%;
+padding-left: 2%;
+padding-right: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.post-date{
+  color: gray;
+}
+
+.author-name{
+  color: gray;
+}
+
+.blog-title{
+  font-weight: 700;
+}
+
+#modalCancel{
+width: auto;
+height: auto;
+padding: 1%;
+font-size: 20px;
+}
+
+#modelAddBlog{
+  width: auto;
+  height: auto;
+  padding: 1%;
+  font-size: 20px;
+}
+
+.blog-title-author-modal{
+  margin-bottom: 2%;
+  border: 0.1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  padding-left: 3%;
+}
+
+
+
+
+
